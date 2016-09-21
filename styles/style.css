@@ -1,0 +1,30 @@
+p{
+	text-align:justify;
+}
+
+body{
+	width:85%;
+	margin:auto;
+}
+
+form{
+	display:block;
+}
+select, input{
+	float:right;
+	display:block;
+}
+
+#calculate{
+	float:none;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	padding:5px 20px;
+	position:relative;
+}
+
+#answer-announcer
+{
+	visibility:hidden;
+}
