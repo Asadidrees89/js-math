@@ -58,7 +58,7 @@ textChange.textContent =int2;
 var textChange = document.getElementById("limit");
 textChange.textContent =lim;
 var textChange = document.getElementById("total");
-textChange.textContent =lim;
+textChange.textContent =sumTot;
 
 var result=document.getElementById("answer-announcer").style;
 result.visibility="visible";
