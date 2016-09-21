@@ -4,6 +4,18 @@ var sumTot=0;
 var occA=0;
 var occB=0;
 
+function clearCell()
+{
+	var clearNameCell=document.getElementById("user-id");
+	clearNameCell.value="";
+}
+
+function clearCell2()
+{
+	var clearNameCell=document.getElementById("input-limit");
+	clearNameCell.value="";
+}
+
 function getValues()
 {
 var name=document.getElementById('user-id').value;
