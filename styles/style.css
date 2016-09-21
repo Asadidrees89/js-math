@@ -28,3 +28,22 @@ select, input{
 {
 	visibility:hidden;
 }
+
+@media all and (max-width:465px)
+{
+	select, input{
+		float:none;
+		width:100%;
+
+	}
+
+	p,a,form
+	{
+		font-size:0.75em;
+	}
+
+	h1,h2,h3,h4
+	{
+		font-size:1.25em;
+	}
+}
