@@ -33,6 +33,7 @@ body{
 	margin:10%;
 	background-color:black;
 	text-align: center;
+	border-radius:15px 0 15px 0;
 
 	}
 	
@@ -41,9 +42,17 @@ body{
 #mainHeading
 {
 	text-align: center;
-	margin:5%;
+	margin:5% 0;
 	font-size: 1.75em;
+	background-color:#E0E0E0;
+	padding:0;
+
 }
+
+h1,h2
+	{
+		font-size:1.25em
+	}
 p
 	{
 	font-size: 12px;
@@ -64,6 +73,7 @@ h1,h2,h3,h4
 	margin:1%;
 	background-color:black;
 	text-align: center;
+	border-radius:15px 0 15px 0;
 
 }
 
