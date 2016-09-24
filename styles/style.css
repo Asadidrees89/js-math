@@ -1,14 +1,103 @@
-p{
-	text-align:justify;
+body{
+	width:95%;
+	margin:auto;
 }
 
-body{
-	width:85%;
-	margin:auto;
+@media all and (max-width:650px)
+{
+	select, input{
+		float:none;
+		width:100%;
+
+	}
+
+	p,a,form
+	{
+		font-size:0.75em;
+	}
+
+	h1,h2
+	{
+		font-size:1.25em;
+	}
+
+	h3,h4{
+		font-size: 1em;
+	}
+
+	#clickable1, #clickable2
+	{
+	text-decoration: none;
+	display:block;
+	padding:20% 0 20% 0;
+	margin:10%;
+	background-color:black;
+	text-align: center;
+
+	}
+	
+}
+
+#mainHeading
+{
+	text-align: center;
+	margin:5%;
+	font-size: 1.75em;
+}
+p
+	{
+	font-size: 12px;
+	font-family:"Open Sans";
+	text-align:justify;
+	font-weight:600;
+	}
+h1,h2,h3,h4
+	{
+	font-family:"Open Sans";
+}
+
+#clickable1, #clickable2
+{
+	text-decoration: none;
+	display:block;
+	padding:20% 0 20% 0;
+	margin:1%;
+	background-color:black;
+	text-align: center;
+
+}
+
+
+
+#ass-41, #ass-42
+{
+	display:none;
+}
+
+.headings h1,.headings h2
+{
+	margin:10px auto;
+	padding:0;
+	color: white;
+	padding-left:6px;
+
+}
+
+.headings
+{
+	background-color:black;
+	border-radius:15px 0 15px 0;
+	width:100%;
+
 }
 
 form{
 	display:block;
+	font-size: 12px;
+	font-family:"Open Sans";
+	background-color:#E0E0E0;
+	font-weight:700;
+
 }
 select, input{
 	float:right;
@@ -24,26 +113,8 @@ select, input{
 	position:relative;
 }
 
-#answer-announcer
+#answer-announcer, #answer-announcer2
 {
 	visibility:hidden;
 }
 
-@media all and (max-width:465px)
-{
-	select, input{
-		float:none;
-		width:100%;
-
-	}
-
-	p,a,form
-	{
-		font-size:0.75em;
-	}
-
-	h1,h2,h3,h4
-	{
-		font-size:1.25em;
-	}
-}
